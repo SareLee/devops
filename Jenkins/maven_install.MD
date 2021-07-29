@@ -23,7 +23,14 @@ Maven is a code build tool which used to convert your code to an artifact. this 
    M2_HOME=/opt/maven/apache-maven-3.6.1
    M2=$M2_HOME/bin
    PATH=<Existing_PATH>:$M2_HOME:$M2
-   ```
+
+//Added by Sreevani Sadhu
+2. Next, set up Maven path system-wide :
+
+sudo gedit /etc/profile.d/maven.sh
+export M2_HOME = /opt/maven
+export PATH = ${M2_HOME}/bin:${PATH}
+
 #### Checkpoint 
 1. logoff and login to check maven version
   
