@@ -28,7 +28,9 @@ Maven is a code build tool which used to convert your code to an artifact. this 
 2. Next, set up Maven path system-wide :
 
 sudo gedit /etc/profile.d/maven.sh
+
 export M2_HOME = /opt/maven
+
 export PATH = ${M2_HOME}/bin:${PATH}
 
 #### Checkpoint 
